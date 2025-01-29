@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+body{
+    background-image:linear-gradient(rgb(249, 169, 224),rgb(247, 242, 243),rgb(249, 177, 251));
+    overflow: hidden;
+}
+.container{
+    width: 100%;
+    max-width: 440px;
+    padding: 25px 25px;
+    margin: 150px auto;
+}
+.wrapper{
+    width: 390px;
+    background-color: rgb(251, 253, 255);
+    border-radius: 5px;
+}
+.wrapper .title{
+    line-height: 80px;
+    text-align: center;
+    background-color: #f65ef6;
+    border-radius: 5px 5px 0 0;
+    color: rgb(255, 252, 254);
+    font-size: 25px;
+    font-weight: 700;
+}
+.wrapper form{
+    padding: 30px 20px 25px 20px;
+}
+.wrapper form .row{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrapper form .row input{
+    height: 100%;
+    width: 100%;
+    padding-left: 50px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 202, 238);
+    transition: all 0.3s ease;
+}
+form .row input:focus{
+    border-color: #f308f3;
+    box-shadow: inset 0px 0px 2px 2px rgba(237, 124, 228, 0.35);
+}
+.wrapper form .row i{
+    position: absolute;
+    width: 47px;
+    height: 100%;
+    border-radius: 5px 0 0 5px;
+    background-color: #f65ef6;
+    border: 1px solid #f65ef6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #ffffff;
+}
+.wrapper form .button input{
+    padding-left: 0;
+    background-color: #f65ef6;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #f65ef6;
+    cursor: pointer;
+}
+form .button input:hover{
+    background-color: #f308f3;
+}
+.wrapper form .passwrd{
+    margin: 10px 0 10px 0;
+}
+.wrapper form .passwrd a{
+   color: #f65ef6;
+   text-decoration: none;
+   font-size: 16px;
+}
+.wrapper form .passwrd a:hover{
+    text-decoration: underline;
+}
+.wrapper form .signup-link{
+    margin-top: 20px;
+    text-align: center;
+}
+.wrapper form .signup-link a{
+   color: #f65ef6;
+   text-decoration: none;
+   font-size: 16px;
+}
+.wrapper form .signup-link a:hover{
+   text-decoration: underline;
+}
+
+
