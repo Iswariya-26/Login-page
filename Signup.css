@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", serif;
+}
+body{
+    background-image:linear-gradient(rgb(249, 169, 224),rgb(247, 242, 243),rgb(249, 177, 251));
+    overflow: hidden;
+    min-height: 100vh;
+}
+.cont{
+    max-width:100%;
+    width: 440px;
+    padding:0 25px ;
+    margin: 50px auto;
+}
+.wrap{
+    background-color: white;
+    width:400px;
+    border-radius: 5px;
+}
+.wrap .title2{
+    line-height: 80px;
+    background-color: #f65ef6;
+    color: white;
+    border-radius: 5px 5px 0 0;
+    font-size: 25px;
+    font-weight: 600;
+    text-align: center;
+}
+.wrap form{
+    padding: 30px 20px 25px 20px;
+}
+.wrap form .roww{
+    height: 45px;
+    margin-bottom: 15px;
+    position: relative;
+}
+.wrap form .roww input{
+    height: 100%;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(245, 202, 238);
+    transition: all 0.5s ease;
+}
+form .roww input:focus{
+    border-color: #f308f3;
+    box-shadow: inset 0px 0px 2px 2px rgba(237, 124, 228, 0.35);
+}
+
+.wrap form .unlock input{
+    padding-left: 0;
+    background-color: #f65ef6;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px solid #f65ef6;
+    cursor: pointer;
+}
+form .unlock input:hover{
+    background-color: #f308f3;
+}
+.wrap form .login{
+    margin: -8px 0 10px 0;
+}
+.wrap form .login a{
+   color: #f65ef6;
+   text-decoration: none;
+   font-size: 16px;
+}
+.wrap form .login a:hover{
+    text-decoration: underline;
+}
+form .roww i{
+    position: absolute;
+    left:310px;
+    width: 50px;
+    height: 100%;
+    border-radius: 0 5px 5px 0;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+
+
